@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/w/wagtail-tinytableblock/wagtail_tinytableblock-{{ version }}.tar.gz
-  sha256: 7b826d87c636ba8659eafd7de06ea4b40f42b39f27004206fde6e9f95ff4da61
+  sha256: dc301368d2acc6cf1ed42ee356d4faf783138a1aefd4a0c8da1219672bee51c6
 
 build:
   noarch: python
